@@ -1,0 +1,382 @@
+/* === TOP SECTION === */
+.project-1 {
+  background-color: white;
+  display: flex;
+  gap: 50px;
+  padding-left: 200px;
+  color: grey;
+}
+
+.About {
+  margin-top: 30px;
+  text-decoration: none;
+  color: dimgray;
+}
+
+.scootin {
+  width: 180px;
+  height: 40px;
+  padding-top: 15px;
+  margin-left: 400px;
+  background-color: orange;
+  color: white;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.scootin:hover {
+  background-color: darkorange;
+}
+
+/* === HERO IMAGE SECTION === */
+.image {
+  background-image: url("/images/Scooter.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  position: relative;
+}
+
+.image-text {
+  z-index: 1;
+  position: absolute;
+  width: 500px;
+  top: 200px;
+  color: white;
+}
+
+.h1 {
+  margin-left: 190px;
+  font-size: 50px;
+  width: 400px;
+}
+
+.line {
+  background-color: #fcb72b;
+  width: 250px;
+  margin-top: 30px;
+  border-width: 15px;
+  position: absolute;
+}
+
+.p {
+  margin-left: 280px;
+  width: 330px;
+}
+
+.scootin-2 {
+  width: 180px;
+  height: 40px;
+  padding-top: 15px;
+  margin-left: 280px;
+  margin-top: 50px;
+  background-color: orange;
+  color: white;
+  font-family: "Space Mono", monospace;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.scootin-2:hover {
+  background-color: darkorange;
+}
+
+/* === ARROW DESIGN === */
+.arrow-wrapper {
+  position: absolute;
+  top: 200px;
+  left: 700px;
+  z-index: 10;
+}
+
+.bold-arrow {
+  position: relative;
+  width: 600px;
+  height: 400px;
+}
+
+.horizontal-top {
+  width: 300px;
+  height: 20px;
+  background-color: #fcb72b;
+}
+
+.vertical {
+  position: absolute;
+  top: 0;
+  left: 290px;
+  width: 20px;
+  height: 200px;
+  background-color: #fcb72b;
+}
+
+.horizontal-bottom {
+  position: absolute;
+  top: 200px;
+  left: 290px;
+  width: 250px;
+  height: 20px;
+  background-color: #fcb72b;
+}
+
+.arrowhead {
+  position: absolute;
+  top: 140px;
+  left: 590px;
+  width: 40px;
+  height: 40px;
+  border-left: 20px solid #fcb72b;
+  border-bottom: 20px solid #fcb72b;
+  transform: rotate(220deg);
+  transform-origin: bottom left;
+}
+
+/* === MIDDLE SECTION === */
+.background {
+  background-color: #e5ecf4;
+  position: absolute;
+  margin-left: 50px;
+  top: 1000px;
+  width: 900px;
+  height: 10px;
+  z-index: 0;
+}
+
+.the-images {
+  display: flex;
+  gap: 250px;
+  margin-left: 220px;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  position: relative;
+  z-index: 2;
+}
+
+.svg {
+  margin-left: 1200px;
+  margin-top: 500px;
+  position: absolute;
+}
+
+.the-texts {
+  color: dimgrey;
+  display: flex;
+  gap: 185px;
+  margin-left: 200px;
+}
+
+.mini-texts {
+  display: flex;
+  margin-left: 200px;
+  gap: 50px;
+}
+
+.mini-texts-p {
+  color: gray;
+  width: 300px;
+}
+
+/* === SECOND IMAGE + TEXT === */
+.image-2 {
+  margin-left: 800px;
+  position: absolute;
+  width: 300px;
+  margin-top: 200px;
+}
+
+.h-text {
+  position: absolute;
+  color: dimgrey;
+  width: 230px;
+  margin-left: 200px;
+  margin-top: 265px;
+}
+
+.p-text {
+  margin-left: 200px;
+  position: absolute;
+  width: 350px;
+  color: grey;
+  margin-top: 350px;
+}
+
+.scootin-3 {
+  width: 180px;
+  height: 40px;
+  padding-top: 15px;
+  margin-left: 200px;
+  margin-top: 450px;
+  background-color: orange;
+  color: white;
+  font-family: "Space Mono", monospace;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.scootin-3:hover {
+  background-color: darkorange;
+}
+
+/* === COMING TO CITY SECTION === */
+.second {
+  display: flex;
+  margin-left: 200px;
+  gap: 250px;
+  margin-top: 200px;
+}
+
+.bitman {
+  width: 300px;
+}
+
+.group12 {
+  color: grey;
+  width: 350px;
+  margin-top: 140px;
+}
+
+.pic2 {
+  width: 900px;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+.h11 {
+  color: dimgrey;
+  left: 750px;
+  top: 2050px;
+  position: absolute;
+}
+
+.scootin-4 {
+  width: 180px;
+  height: 40px;
+  padding-top: 15px;
+  margin-top: 230px;
+  position: absolute;
+  background-color: orange;
+  color: white;
+  text-align: center;
+  margin-left: 550px;
+  border-radius: 5px;
+}
+
+.scootin-4:hover {
+  background-color: darkorange;
+}
+
+/* === LAST IMAGE SECTION === */
+.image-3 {
+  margin-left: 800px;
+  position: absolute;
+  width: 300px;
+  margin-top: 200px;
+  border-radius: 200px;
+}
+
+.bottom {
+  margin-left: 40px;
+  position: absolute;
+}
+
+.group32 {
+  position: absolute;
+  margin-left: 600px;
+  margin-top: 400px;
+  z-index: 1;
+  width: 650px;
+}
+
+.Mask {
+  margin-top: 200px;
+  position: absolute;
+  margin-left: 1200px;
+  height: 350px;
+  width: 120px;
+}
+
+.group17 {
+  position: absolute;
+  margin-left: 920px;
+  margin-top: 230px;
+  z-index: 3;
+}
+
+.masksvg {
+  position: absolute;
+  margin-left: 1200px;
+  margin-top: 150px;
+  height: 350px;
+}
+
+/* === FOOTER === */
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  background: #232a31;
+  color: #aaa;
+  text-align: center;
+  width: 1440px;
+  margin-left: 40px;
+  margin-top: 300px;
+  padding: 20px 0;
+}
+
+.footer-bottom a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.A-of-all {
+  text-decoration: none;
+  color: #696969;
+}
+
+.below-style {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-left: 100px;
+}
+
+.below-style h2 {
+  color: white;
+  font-size: 48px;
+}
+
+.below-style li {
+  list-style: none;
+}
+
+.below-style a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.below-style a:hover {
+  color: orange;
+}
+
+.socials {
+  color: darkorange;
+  margin-left: 500px;
+}
+
+.socials a {
+  color: darkorange !important;
+  text-decoration: none;
+  font-size: 22px;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.socials a:hover {
+  color: orange !important;
+}

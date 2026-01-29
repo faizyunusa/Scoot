@@ -1,6 +1,6 @@
 import React from "react";
 import "./project1.css";
-
+import scooter from "./scooter.png";
 function App() {
   return (
     <>
@@ -14,8 +14,8 @@ function App() {
 
       <div className="image"></div>
 
+<img src={scooter} alt="Scooter" />
       <div className="image-text">
-        <img src="/images/Group 26.svg" alt="" className="svg" />
         <h1 className="h1">Scooter&nbsp;&nbsp;&nbsp; sharing<br /> made&nbsp;&nbsp; simple</h1>
         <div className="line">&nbsp;</div>
         <p className="p">

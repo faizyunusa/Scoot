@@ -1,6 +1,8 @@
 import React from "react";
 import "./project1.css";
 import scooter from "./assets/Scooter.png";
+
+
 function App() {
   return (
     <>
